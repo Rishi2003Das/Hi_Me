@@ -6,7 +6,7 @@ const navLinks = [
   { to: '/projects', label: 'Projects' },
   { to: '/experience', label: 'Experience' },
   { to: '/achievements', label: 'Achievements' },
-  { to: '/extracurricular', label: 'Extra' },
+  { to: '/extracurricular', label: 'Extra Curricular' },
 ]
 
 export default function Navbar() {
@@ -34,11 +34,10 @@ export default function Navbar() {
             <Link
               key={link.to}
               to={link.to}
-              className={`font-headline text-sm uppercase tracking-tighter font-bold transition-colors duration-75 px-2 py-1 ${
-                pathname === link.to
-                  ? 'text-primary font-black border-b-4 border-primary-fixed'
-                  : 'text-on-surface-variant hover:text-primary hover:bg-primary-fixed'
-              }`}
+              className={`font-headline text-sm uppercase tracking-tighter font-bold transition-colors duration-75 px-2 py-1 ${pathname === link.to
+                ? 'text-primary font-black border-b-4 border-primary-fixed'
+                : 'text-on-surface-variant hover:text-primary hover:bg-primary-fixed'
+                }`}
             >
               {link.label}
             </Link>
@@ -75,11 +74,10 @@ export default function Navbar() {
               key={link.to}
               to={link.to}
               onClick={() => setMobileOpen(false)}
-              className={`block py-3 font-headline font-bold uppercase tracking-tighter text-lg border-b-2 border-outline-variant ${
-                pathname === link.to
-                  ? 'text-primary bg-primary-fixed px-3'
-                  : 'text-on-surface-variant hover:text-primary hover:bg-primary-fixed hover:px-3'
-              } transition-all`}
+              className={`block py-3 font-headline font-bold uppercase tracking-tighter text-lg border-b-2 border-outline-variant ${pathname === link.to
+                ? 'text-primary bg-primary-fixed px-3'
+                : 'text-on-surface-variant hover:text-primary hover:bg-primary-fixed hover:px-3'
+                } transition-all`}
             >
               {link.label}
             </Link>

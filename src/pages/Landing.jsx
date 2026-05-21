@@ -84,7 +84,7 @@ export default function Landing() {
         <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="inline-block bg-primary-fixed text-primary px-4 py-1 border-2 border-primary font-black uppercase tracking-widest text-sm">
-              Mining Engineering × AI/ML
+              Software Engineer × AI/ML Researcher
             </div>
 
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-headline font-black leading-[0.9] tracking-tighter uppercase">
@@ -176,9 +176,8 @@ export default function Landing() {
                   {d.tags.map((tag) => (
                     <span
                       key={tag}
-                      className={`px-3 py-1 text-xs font-bold uppercase ${
-                        d.tagStyle || 'bg-primary text-background'
-                      }`}
+                      className={`px-3 py-1 text-xs font-bold uppercase ${d.tagStyle || 'bg-primary text-background'
+                        }`}
                     >
                       {tag}
                     </span>
