@@ -100,7 +100,7 @@ export default function Landing() {
             <div className="flex flex-wrap gap-4 pt-4">
               <Link
                 to="/projects"
-                className="bg-primary text-background px-8 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase"
+                className="bg-primary text-primary-fixed px-8 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase"
               >
                 View Portfolio
               </Link>
