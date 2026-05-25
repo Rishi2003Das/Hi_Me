@@ -33,7 +33,7 @@ export default function Projects() {
                   AI / TRAVEL PLATFORM
                 </div>
               </div>
-              <div className="p-8 flex-grow">
+              <div className="p-8 grow">
                 <div className="flex justify-between items-start mb-4">
                   <h2 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter">
                     GlobeTrotter

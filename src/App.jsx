@@ -22,7 +22,7 @@ function App() {
     <>
       <ScrollToTop />
       <Navbar />
-      <main className="pt-[72px]">
+      <main className="pt-18">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/projects" element={<Projects />} />
