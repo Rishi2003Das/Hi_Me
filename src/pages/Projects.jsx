@@ -113,7 +113,7 @@ export default function Projects() {
                   RAG / ENTERPRISE AI
                 </div>
               </div>
-              <div className="p-8 flex-grow">
+              <div className="p-8 grow">
                 <h2 className="font-headline text-4xl font-black uppercase tracking-tighter mb-4">
                   Cervello
                 </h2>
@@ -161,7 +161,7 @@ export default function Projects() {
                   NLP / TRANSLATION
                 </div>
               </div>
-              <div className="p-8 flex-grow">
+              <div className="p-8 grow">
                 <h2 className="font-headline text-4xl font-black uppercase tracking-tighter mb-4">
                   Bhashamitra AI
                 </h2>
@@ -190,7 +190,7 @@ export default function Projects() {
           {/* ===== Project 4: GadgetHive ===== */}
           <div className="md:col-span-4 group">
             <div className="bg-surface-bright border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
-              <div className="p-8 flex-grow">
+              <div className="p-8 grow">
                 <span className="material-symbols-outlined text-5xl text-secondary mb-4 block" style={{ fontVariationSettings: '"FILL" 1' }}>
                   security
                 </span>
@@ -218,7 +218,7 @@ export default function Projects() {
           {/* ===== Project 5: Anime Face Generator ===== */}
           <div className="md:col-span-4 group">
             <div className="bg-tertiary text-background border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
-              <div className="p-8 flex-grow">
+              <div className="p-8 grow">
                 <span className="material-symbols-outlined text-5xl mb-4 block" style={{ fontVariationSettings: '"FILL" 1' }}>
                   auto_awesome
                 </span>
@@ -247,7 +247,7 @@ export default function Projects() {
           {/* ===== Project 6: AlgoCash ===== */}
           <div className="md:col-span-4 group">
             <div className="bg-secondary text-background border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
-              <div className="p-8 flex-grow">
+              <div className="p-8 grow">
                 <span className="material-symbols-outlined text-5xl mb-4 block" style={{ fontVariationSettings: '"FILL" 1' }}>
                   candlestick_chart
                 </span>
