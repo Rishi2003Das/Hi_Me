@@ -42,7 +42,7 @@ export default function Achievements() {
           {stats.map((s) => (
             <div
               key={s.label}
-              className="bg-surface border-4 border-primary p-6 neo-shadow-sm flex flex-col items-center active:translate-x-[2px] active:translate-y-[2px] active:shadow-[2px_2px_0px_0px_var(--color-primary)] transition-all cursor-default"
+              className="bg-surface border-4 border-primary p-6 neo-shadow-sm flex flex-col items-center transition-all cursor-default"
             >
               <span className={`font-headline text-5xl font-black ${s.color}`}>
                 {s.value}
@@ -59,7 +59,7 @@ export default function Achievements() {
       <section className="px-6 max-w-7xl mx-auto mb-24">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           {/* Hackathon Grand Prize */}
-          <div className="md:col-span-8 bg-primary text-background p-8 border-4 border-primary neo-shadow flex flex-col justify-between min-h-[400px] relative overflow-hidden group">
+          <div className="md:col-span-8 bg-primary text-background p-8 border-4 border-primary neo-shadow flex flex-col justify-between min-h-100 relative overflow-hidden group">
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-4">
                 <span
@@ -122,7 +122,7 @@ export default function Achievements() {
           {/* Academic Honor */}
           <div className="md:col-span-12 bg-primary-fixed text-primary p-8 border-4 border-primary neo-shadow flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-6">
-              <div className="bg-primary text-background font-headline text-4xl font-black p-4 rotate-[-3deg] shrink-0">
+              <div className="bg-primary text-background font-headline text-4xl font-black p-4 -rotate-3 shrink-0">
                 4.0
               </div>
               <div>
@@ -182,7 +182,7 @@ export default function Achievements() {
           </div>
 
           {/* Coming Soon */}
-          <div className="md:col-span-4 bg-secondary text-white p-8 border-4 border-primary neo-shadow flex flex-col justify-end min-h-[300px]">
+          <div className="md:col-span-4 bg-secondary text-white p-8 border-4 border-primary neo-shadow flex flex-col justify-end min-h-75">
             <h3 className="font-headline text-4xl font-black uppercase leading-none mb-6">
               MORE COMING SOON.
             </h3>

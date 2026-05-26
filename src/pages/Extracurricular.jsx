@@ -86,7 +86,7 @@ export default function Extracurricular() {
           {activities.map((a, i) => (
             <div
               key={i}
-              className={`${a.span} ${a.bg} ${a.text} border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col justify-between min-h-[320px]`}
+              className={`${a.span} ${a.bg} ${a.text} border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col justify-between min-h-80`}
             >
               <div>
                 <div className="flex justify-between items-start mb-6">
@@ -145,7 +145,7 @@ export default function Extracurricular() {
           <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
             Community Impact
           </h2>
-          <div className="h-1 bg-primary flex-grow"></div>
+          <div className="h-1 bg-primary grow"></div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">

@@ -276,7 +276,7 @@ export default function Landing() {
             <input
               type="email"
               placeholder="YOUR_EMAIL@DOMAIN.COM"
-              className="bg-background border-4 border-primary px-8 py-4 font-headline font-black text-lg focus:ring-0 focus:outline-none placeholder:opacity-50 min-w-0 sm:min-w-[300px]"
+              className="bg-background border-4 border-primary px-8 py-4 font-headline font-black text-lg focus:ring-0 focus:outline-none placeholder:opacity-50 min-w-0 sm:min-w-75"
             />
             <button className="bg-primary text-background px-12 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase">
               CONNECT

@@ -98,7 +98,7 @@ export default function Experience() {
           {experiences.map((exp, i) => (
             <div
               key={i}
-              className={`${exp.color} ${exp.textColor} border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col justify-between min-h-[340px]`}
+              className={`${exp.color} ${exp.textColor} border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col justify-between min-h-85`}
             >
               <div>
                 <div className="flex justify-between items-start mb-6">
@@ -153,7 +153,7 @@ export default function Experience() {
           <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
             Competitions
           </h2>
-          <div className="h-1 bg-primary flex-grow"></div>
+          <div className="h-1 bg-primary grow"></div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-surface border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
@@ -193,7 +193,7 @@ export default function Experience() {
           <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
             Technical Arsenal
           </h2>
-          <div className="h-1 bg-primary flex-grow"></div>
+          <div className="h-1 bg-primary grow"></div>
           <div className="w-12 h-12 border-4 border-primary bg-primary-fixed"></div>
         </div>
 
@@ -232,7 +232,7 @@ export default function Experience() {
         <div className="space-y-6">
           <div className="bg-primary-fixed border-4 border-primary p-8 md:p-12 neo-shadow-lg flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-6">
-              <div className="bg-primary text-background font-headline text-4xl font-black p-4 rotate-[-3deg] shrink-0">
+              <div className="bg-primary text-background font-headline text-4xl font-black p-4 -rotate-3 shrink-0">
                 8.35
               </div>
               <div>
@@ -248,7 +248,7 @@ export default function Experience() {
 
           <div className="bg-surface border-4 border-primary p-8 neo-shadow flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-6">
-              <div className="bg-primary text-background font-headline text-4xl font-black p-4 rotate-[-3deg] shrink-0">
+              <div className="bg-primary text-background font-headline text-4xl font-black p-4 -rotate-3 shrink-0">
                 10.0
               </div>
               <div>
