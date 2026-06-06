@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
+import portfolioPic from '../assets/Portfolio_Pic.png'
+import iitKgpPic from '../assets/IIT_KGP.jpg'
+
 
 const domains = [
   {
@@ -51,7 +54,7 @@ const domains = [
 ]
 
 const techStack =
-  'Python // Java // JavaScript // SQL // ReactJS // NextJS // FastAPI // Flask // SpringBoot // PyTorch // scikit-learn // LangChain // OpenCV // Pandas // NumPy // MongoDB // PostgreSQL // Qdrant // Docker // Git // GCP // Linux'
+  'Python // Java // JavaScript // SQL // ReactJS // Flask // SpringBoot // PyTorch // LangChain // OpenCV // MongoDB // PostgreSQL // Qdrant // Docker // Git // Linux'
 
 export default function Landing() {
   const heroImgRef = useRef(null)
@@ -94,16 +97,18 @@ export default function Landing() {
             <p className="text-xl md:text-2xl font-medium max-w-lg leading-relaxed">
               Dual Degree (B.Tech + M.Tech) student at NIT Rourkela in Mining
               Engineering & Remote Sensing, with deep interdisciplinary focus
-              on AI/ML, backend engineering, and generative AI systems.
+              on Computer Vision, Backend systems and  DevOps engineering.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Link
-                to="/projects"
+              <a
+                href="https://drive.google.com/file/d/1eSBhnPcIi3qUnEA0hv1he6lg4oo-kHey/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary text-primary-fixed hover:bg-primary-fixed hover:text-primary px-8 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase"
               >
                 View Portfolio
-              </Link>
+              </a>
               <a
                 href="https://github.com/Rishi2003Das"
                 target="_blank"
@@ -121,7 +126,7 @@ export default function Landing() {
               <img
                 ref={heroImgRef}
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhW0PhqAkxEY2T7NDGBeeu_-_VlCmO6d3EyX56H74MQIkGQDZMa5RURBMWrQasM328ZHirB-GM177smKUdyHQ8mleVOOrsDNC8KTqT5US9eM1sGUyPIZRK6eMGxKLXUJffQkvNTmUWQwHGrmtNPamghbZmxM_mnnurLNSISAxfwuXOlNvk7ZWXu0aBBsG5D8qnJ98m7zAN1kPe9i09pDmgfjf2oQfHQRRIkteFvu8M91fP_2T5P2si5xGcjLo9MUefEdKkYP3smzlK"
+                src={portfolioPic}
                 alt="Rishi Das — AI/ML & Software Engineer"
                 style={{ transform: 'scale(1.05)' }}
               />
@@ -142,8 +147,8 @@ export default function Landing() {
                 Strategic Domains
               </h2>
               <p className="text-xl max-w-xl">
-                Interdisciplinary expertise spanning AI/ML, software engineering,
-                data science, and generative AI — despite a core mining engineering background.
+                Interdisciplinary expertise spanning AI Research, Backend Systems,
+                Data Science, Data Anlyst and Technical Consulting — despite a core mining engineering background.
               </p>
             </div>
             <div className="hidden md:block text-8xl font-black opacity-[0.06] font-headline">
@@ -209,7 +214,7 @@ export default function Landing() {
               <div className="aspect-video bg-surface border-4 border-primary neo-shadow-lg overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo-vrtAz_kMXJkBiMPForfNmKhlpBaaNVNRVpg9hp-2blEqzDNNq1DusqN7wlKgEoJNg1jt_yKNQPeCIQQ2lBJA3s3KUvN0j4UPT40z0GHLaZU34-KCBTtgjmv5skJLf7wS3C1etyD8l1KR_Pw-J8LUwg9Q5Z3Hdc4W3NqbiMPtC95WhIlsawyv5dmoflZtcQwFLiQup1Y5QHdXtydWe2Yq9nZOqtQjs5st_cJcdcBQ6Shcr-BWvXeSc3QLdiFeQTCUrEw9yCoN8mp"
+                  src={iitKgpPic}
                   alt="Research visualization — contactless vital monitoring using FMCW radar and thermal imaging"
                 />
               </div>
