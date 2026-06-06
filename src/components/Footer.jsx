@@ -16,12 +16,12 @@ export default function Footer() {
           to="/"
           className="text-background font-headline font-black text-3xl uppercase tracking-tighter hover:text-primary-fixed transition-colors"
         >
-          RISHI DAS // 2025
+          Rishi Das // NIT Rourkela
         </Link>
 
         {/* Copyright */}
         <div className="font-body text-sm font-bold uppercase tracking-widest text-background text-center md:text-left opacity-80">
-          © 2025 RISHI DAS. ALL RIGHTS RESERVED.
+          Made by Rishi Das with LOVE!
         </div>
 
         {/* Social Icons */}

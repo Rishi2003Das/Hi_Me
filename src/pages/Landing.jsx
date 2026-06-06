@@ -148,7 +148,7 @@ export default function Landing() {
               </h2>
               <p className="text-xl max-w-xl">
                 Interdisciplinary expertise spanning AI Research, Backend Systems,
-                Data Science, Data Anlyst and Technical Consulting — despite a core mining engineering background.
+                Data Science, Finance and Data Anlyst and Technical Consulting — despite a core mining engineering background.
               </p>
             </div>
             <div className="hidden md:block text-8xl font-black opacity-[0.06] font-headline">
@@ -224,7 +224,7 @@ export default function Landing() {
               <div className="flex items-center gap-4">
                 <div className="h-1 w-20 bg-primary"></div>
                 <span className="font-headline font-black uppercase tracking-widest text-secondary">
-                  Featured Research // IIT Kharagpur
+                  Summer Research Intern // IIT Kharagpur
                 </span>
               </div>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline font-black uppercase leading-none tracking-tighter">
@@ -234,7 +234,7 @@ export default function Landing() {
                 Non-invasive healthcare monitoring using FMCW Radar and Thermal
                 Camera Imaging under Prof. Arabinda Routray. Predicting heart
                 rate, respiratory rate, and emotional variations using radar
-                and thermal signatures. Improved screening efficiency by ~70%.
+                and thermal signatures. Improved screening efficiency by 70%.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
@@ -273,9 +273,8 @@ export default function Landing() {
             Let's Build <br /> Together.
           </h2>
           <p className="text-xl md:text-2xl font-bold max-w-2xl mx-auto">
-            Actively seeking opportunities in AI/ML Engineering, SDE, Backend
-            Engineering, Generative AI & LLM Systems, Data Science, and Applied
-            Research.
+            Actively seeking opportunities in AI/ML Research, SDE, Backend
+            Engineering, Data Analyst and Science and Finance Analyst.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <input
