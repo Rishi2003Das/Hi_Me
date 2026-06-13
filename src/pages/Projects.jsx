@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import globeTrotterPic from '../assets/GlobeTrotter.jpeg'
+import temDashboardPic from '../assets/tem_dashboard.png'
+import gadgetHivePic from '../assets/GadgetHive.jpeg'
 
 export default function Projects() {
   return (
@@ -20,6 +22,140 @@ export default function Projects() {
       {/* Projects Grid */}
       <div className="px-6 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
+
+          {/* ===== Project: TEM Web Platform (Large Featured) ===== */}
+          <div className="md:col-span-8 group">
+            <div className="bg-surface-bright border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
+              <div className="relative overflow-hidden aspect-video border-b-4 border-primary">
+                <img
+                  alt="Techno-Economic Model (TEM) Web Platform"
+                  className="w-full h-full object-cover"
+                  src={temDashboardPic}
+                />
+                <div className="absolute top-4 left-4 bg-tertiary text-on-tertiary font-headline font-black px-4 py-1 uppercase text-sm">
+                  Full Stack / Fintech
+                </div>
+              </div>
+              <div className="p-8 grow">
+                <div className="flex justify-between items-start mb-4">
+                  <h2 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter">
+                    TEM Web Platform
+                  </h2>
+                  <span className="material-symbols-outlined text-4xl">
+                    analytics
+                  </span>
+                </div>
+                <p className="font-body text-lg mb-4 leading-relaxed">
+                  Engineered a secure web-based transformation of SRK Consulting’s proprietary Techno-Economic Model (TEM), migrating complex Excel-driven calculations, assumptions, and financial workflows into a scalable client-server architecture with encrypted databases, role-based access control, dynamic dashboards, and backend-secured business logic to enable interactive scenario analysis while protecting intellectual property and computational models.
+                </p>
+                <p className="font-body text-sm font-bold text-secondary mb-6">
+                  💼 Summer SDE Intern // SRK Consulting (Summer 2026)
+                </p>
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {['PYTHON', 'FASTAPI', 'REACTJS', 'POSTGRESQL', 'DOCKER', 'NGINX'].map((tag) => (
+                    <span
+                      key={tag}
+                      className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-surface-container"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex flex-wrap gap-4">
+                  <a
+                    href="https://tem-mining.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-primary text-background px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    WORKING PROTOTYPE{' '}
+                    <span className="material-symbols-outlined">
+                      arrow_outward
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.srk.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    SRK Consulting{' '}
+                    <span className="material-symbols-outlined">
+                      corporate_fare
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ===== Project 4: GadgetHive ===== */}
+          <div className="md:col-span-4 group">
+            <div className="bg-surface-bright border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
+              <div className="relative overflow-hidden aspect-video border-b-4 border-primary bg-background">
+                <img
+                  alt="GadgetHive Secure Marketplace"
+                  className="w-full h-full object-cover"
+                  src={gadgetHivePic}
+                />
+                <div className="absolute top-4 left-4 bg-primary text-background font-headline font-black px-4 py-1 uppercase text-sm">
+                  SECURE / BACKEND
+                </div>
+              </div>
+              <div className="p-8 grow flex flex-col justify-between">
+                <div>
+                  <div className="flex justify-between items-start mb-4">
+                    <h2 className="font-headline text-3xl font-black uppercase tracking-tighter">
+                      GadgetHive
+                    </h2>
+                    <span className="material-symbols-outlined text-4xl text-secondary" style={{ fontVariationSettings: '"FILL" 1' }}>
+                      security
+                    </span>
+                  </div>
+                  <p className="font-body text-base mb-6 leading-relaxed">
+                    Secure marketplace backend with encrypted storage, FIDO2/WebAuthn
+                    passwordless authentication, session management, and SQLite relational DB.
+                  </p>
+                </div>
+                <div>
+                  <div className="flex flex-wrap gap-2 mb-8">
+                    {['FLASK', 'SQLITE', 'FIDO2', 'BCRYPT'].map((tag) => (
+                      <span
+                        key={tag}
+                        className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-surface-container"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex flex-wrap gap-3 mt-auto pt-4">
+                    <a
+                      href="https://gadgethive.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-primary text-background px-4 py-2.5 font-headline font-black text-xs border-2 border-primary neo-shadow-sm hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                    >
+                      VIEW PROTOTYPE{' '}
+                      <span className="material-symbols-outlined text-sm">
+                        arrow_outward
+                      </span>
+                    </a>
+                    <a
+                      href="https://github.com/Rishi2003Das/GadgetHive"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-4 py-2.5 font-headline font-black text-xs border-2 border-primary neo-shadow-sm hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                    >
+                      VIEW REPOSITORY{' '}
+                      <span className="material-symbols-outlined text-sm">
+                        arrow_forward
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* ===== Project 1: GlobeTrotter (Large Featured) ===== */}
           <div className="md:col-span-8 group">
@@ -226,60 +362,8 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* ===== Project 4: GadgetHive ===== */}
-          <div className="md:col-span-4 group">
-            <div className="bg-surface-bright border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
-              <div className="p-8 grow">
-                <span className="material-symbols-outlined text-5xl text-secondary mb-4 block" style={{ fontVariationSettings: '"FILL" 1' }}>
-                  security
-                </span>
-                <h2 className="font-headline text-3xl font-black uppercase tracking-tighter mb-4">
-                  GadgetHive
-                </h2>
-                <p className="font-body text-base mb-6 leading-relaxed">
-                  Secure marketplace backend with encrypted storage, FIDO2/WebAuthn
-                  passwordless authentication, session management, and SQLite relational DB.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-8">
-                  {['FLASK', 'SQLITE', 'FIDO2', 'BCRYPT'].map((tag) => (
-                    <span
-                      key={tag}
-                      className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-surface-container"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex flex-wrap gap-3 mt-auto pt-4">
-                  <a
-                    href="https://gadgethive.onrender.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-primary text-background px-4 py-2.5 font-headline font-black text-xs border-2 border-primary neo-shadow-sm hover:bg-primary-fixed hover:text-primary transition-all uppercase"
-                  >
-                    VIEW PROTOTYPE{' '}
-                    <span className="material-symbols-outlined text-sm">
-                      arrow_outward
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Rishi2003Das/GadgetHive"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-4 py-2.5 font-headline font-black text-xs border-2 border-primary neo-shadow-sm hover:bg-primary-fixed hover:text-primary transition-all uppercase"
-                  >
-                    VIEW REPOSITORY{' '}
-                    <span className="material-symbols-outlined text-sm">
-                      arrow_forward
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* ===== Project 5: Anime Face Generator ===== */}
-          <div className="md:col-span-4 group">
+          <div className="md:col-span-6 group">
             <div className="bg-tertiary text-background border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
               <div className="p-8 grow">
                 <span className="material-symbols-outlined text-5xl mb-4 block" style={{ fontVariationSettings: '"FILL" 1' }}>
@@ -308,7 +392,7 @@ export default function Projects() {
           </div>
 
           {/* ===== Project 6: AlgoCash ===== */}
-          <div className="md:col-span-4 group">
+          <div className="md:col-span-6 group">
             <div className="bg-secondary text-background border-4 border-primary p-1 neo-shadow-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_var(--color-primary)] transition-all duration-150 h-full flex flex-col">
               <div className="p-8 grow">
                 <span className="material-symbols-outlined text-5xl mb-4 block" style={{ fontVariationSettings: '"FILL" 1' }}>
