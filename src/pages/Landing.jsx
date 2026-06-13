@@ -284,6 +284,17 @@ export default function Landing() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
+                  href="https://tem-mining.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 font-headline font-black text-lg uppercase border-b-4 border-tertiary hover:bg-tertiary hover:text-background transition-colors p-1"
+                >
+                  View Prototype{' '}
+                  <span className="material-symbols-outlined">
+                    arrow_outward
+                  </span>
+                </a>
+                <a
                   href="https://www.srk.com"
                   target="_blank"
                   rel="noopener noreferrer"
