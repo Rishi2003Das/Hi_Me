@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import globeTrotterPic from '../assets/GlobeTrotter.jpeg'
 
 export default function Projects() {
   return (
@@ -27,7 +28,7 @@ export default function Projects() {
                 <img
                   alt="GlobeTrotter AI Travel Platform"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo8ICme-gL8brI_583wuFyO9_I95cXKjvZNz1f714ow8jDFI3svkQhjFjq5SZnjJ-MGLLwEDYZonrJSM59g3Aqvbblf0mK5aj4b9t5HuyYcGut6TtRywUHQAA6Ho7eMqgctPA0iA2-9byzwq-kH6be9osMFX85wGsP1xKhEY7-VzOnda7LpFnBBxP5FhH_vB2dfsc3a2jORBtidznbcu9r5Joj1PTxUAO6i4RUAv1KUDjoko0AkiiB3uSa1N5DO4J1JWNHb1XeJfOA"
+                  src={globeTrotterPic}
                 />
                 <div className="absolute top-4 left-4 bg-primary text-background font-headline font-black px-4 py-1 uppercase text-sm">
                   AI / TRAVEL PLATFORM
@@ -55,25 +56,36 @@ export default function Projects() {
                   {['NEXTJS', 'MONGODB', 'OPENAI API', 'PYTORCH', 'EXPRESSJS', 'TAILWINDCSS'].map((tag) => (
                     <span
                       key={tag}
-                      className={`border-2 border-primary px-3 py-1 font-bold text-xs uppercase ${
-                        tag === 'NEXTJS' ? 'bg-primary-fixed' : 'bg-surface-container'
-                      }`}
+                      className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-surface-container"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
-                <a
-                  href="https://github.com/Rishi2003Das"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
-                >
-                  VIEW REPOSITORY{' '}
-                  <span className="material-symbols-outlined">
-                    arrow_forward
-                  </span>
-                </a>
+                <div className="flex flex-wrap gap-4">
+                  <a
+                    href="https://globe-trotter-nitrous.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-red-500 text-background px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    WORKING PROTOTYPE{' '}
+                    <span className="material-symbols-outlined">
+                      arrow_outward
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Rishi2003Das/GlobeTrotter_NITROUS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    VIEW REPOSITORY{' '}
+                    <span className="material-symbols-outlined">
+                      arrow_forward
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -95,7 +107,8 @@ export default function Projects() {
               </p>
               <p className="font-body text-sm leading-relaxed opacity-80">
                 Consistent top finishes at IIT(ISM) Dhanbad HackFest, Odoo Finale,
-                IIIT Kalyani StatusCode, Reverie Language Technologies, and IEEE conferences.
+                IIIT Kalyani StatusCode, Amazon ML Challenge, IEEE Conference Kolkata Chapter,
+                LEASH BELKA Challenge on Kaggle and Reverie Language Technologies.
               </p>
             </div>
           </div>
@@ -125,7 +138,7 @@ export default function Projects() {
                 <p className="font-body text-sm font-bold text-secondary mb-6">
                   🏆 2nd Position — HackFest 2025 at IIT(ISM) Dhanbad
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-8">
                   {['FASTAPI', 'OPENAI API', 'QDRANT', 'MONGODB', 'PYTORCH'].map((tag) => (
                     <span
                       key={tag}
@@ -134,6 +147,19 @@ export default function Projects() {
                       {tag}
                     </span>
                   ))}
+                </div>
+                <div className="flex flex-wrap gap-4 mt-auto pt-4">
+                  <a
+                    href="https://github.com/Rishi2003Das/Cervello"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-6 py-3 font-headline font-black text-sm border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    VIEW REPOSITORY{' '}
+                    <span className="material-symbols-outlined text-base">
+                      arrow_forward
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -173,7 +199,7 @@ export default function Projects() {
                 <p className="font-body text-sm font-bold text-secondary mb-6">
                   🏆 1st Runners-Up — Reverie Language Technologies
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-8">
                   {['REACTJS', 'FLASK', 'PYTORCH', 'HUGGINGFACE', 'WHISPER API'].map((tag) => (
                     <span
                       key={tag}
@@ -182,6 +208,19 @@ export default function Projects() {
                       {tag}
                     </span>
                   ))}
+                </div>
+                <div className="flex flex-wrap gap-4 mt-auto pt-4">
+                  <a
+                    href="https://github.com/Rishi2003Das/Bhashamitra.ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-6 py-3 font-headline font-black text-sm border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    VIEW REPOSITORY{' '}
+                    <span className="material-symbols-outlined text-base">
+                      arrow_forward
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -201,7 +240,7 @@ export default function Projects() {
                   Secure marketplace backend with encrypted storage, FIDO2/WebAuthn
                   passwordless authentication, session management, and SQLite relational DB.
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-8">
                   {['FLASK', 'SQLITE', 'FIDO2', 'BCRYPT'].map((tag) => (
                     <span
                       key={tag}
@@ -210,6 +249,30 @@ export default function Projects() {
                       {tag}
                     </span>
                   ))}
+                </div>
+                <div className="flex flex-wrap gap-3 mt-auto pt-4">
+                  <a
+                    href="https://gadgethive.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-primary text-background px-4 py-2.5 font-headline font-black text-xs border-2 border-primary neo-shadow-sm hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    VIEW PROTOTYPE{' '}
+                    <span className="material-symbols-outlined text-sm">
+                      arrow_outward
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Rishi2003Das/GadgetHive"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-4 py-2.5 font-headline font-black text-xs border-2 border-primary neo-shadow-sm hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                  >
+                    VIEW REPOSITORY{' '}
+                    <span className="material-symbols-outlined text-sm">
+                      arrow_forward
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>

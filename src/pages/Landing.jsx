@@ -16,6 +16,7 @@ const domains = [
     text: '',
     iconColor: 'text-tertiary',
     span: 'md:col-span-7',
+    cv: '/722MN1055_Research_Internship.pdf',
   },
   {
     icon: 'terminal',
@@ -27,6 +28,7 @@ const domains = [
     text: '',
     iconColor: 'text-primary',
     span: 'md:col-span-5',
+    cv: '/722MN1055_RishiDas_SDE.pdf',
   },
   {
     icon: 'analytics',
@@ -39,6 +41,7 @@ const domains = [
     iconColor: 'text-background',
     tagStyle: 'bg-background text-primary',
     span: 'md:col-span-5',
+    cv: '/722MN1055_RishiDas_AI.pdf',
   },
   {
     icon: 'show_chart',
@@ -51,6 +54,7 @@ const domains = [
     iconColor: 'text-background',
     tagStyle: 'bg-background text-primary',
     span: 'md:col-span-7',
+    cv: '/722MN1055_RishiDas_Finance.pdf',
   },
 ]
 
@@ -178,7 +182,7 @@ export default function Landing() {
                   {d.title}
                 </h3>
                 <p className="text-lg mb-6 leading-snug">{d.desc}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-8">
                   {d.tags.map((tag) => (
                     <span
                       key={tag}
@@ -188,6 +192,23 @@ export default function Landing() {
                       {tag}
                     </span>
                   ))}
+                </div>
+                <div>
+                  <a
+                    href={d.cv}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center gap-2 px-5 py-2.5 font-headline font-black border-2 border-primary neo-shadow-sm hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all uppercase text-xs ${
+                      d.number === '03' || d.number === '04'
+                        ? 'bg-background text-primary hover:bg-primary-fixed hover:text-primary'
+                        : 'bg-primary text-background hover:bg-primary-fixed hover:text-primary'
+                    }`}
+                  >
+                    View CV{' '}
+                    <span className="material-symbols-outlined text-sm">
+                      description
+                    </span>
+                  </a>
                 </div>
               </div>
             ))}
