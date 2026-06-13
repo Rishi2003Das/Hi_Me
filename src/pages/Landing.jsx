@@ -6,11 +6,11 @@ import iitKgpPic from '../assets/IIT_KGP.jpg'
 
 const domains = [
   {
-    icon: 'neurology',
+    icon: 'memory',
     number: '01',
-    title: 'AI/ML Engineer',
-    desc: 'Building Vision Transformers, deep learning pipelines, and generative models. Researching medical AI (leukemia classification, vital monitoring) and drug discovery with PyTorch, scikit-learn, and HuggingFace.',
-    tags: ['PyTorch', 'Computer Vision', 'NLP'],
+    title: 'AI/ML Researcher',
+    desc: 'Designing and implementing deep learning architectures like Convoluted Vision Transformers (CVT) and GANs. Researching medical AI at NIT Rourkela (Leukemia classification on Raspberry Pi) and contactless vitals monitoring using FMCW radar and thermal imaging at IIT Kharagpur. Top 5% in NeurIPS BELKA challenge.',
+    tags: ['PyTorch', 'Vision Transformers', 'Medical AI'],
     bg: 'bg-background',
     text: '',
     iconColor: 'text-tertiary',
@@ -20,7 +20,7 @@ const domains = [
     icon: 'terminal',
     number: '02',
     title: 'SDE // Backend',
-    desc: 'Designing scalable backend systems, RESTful APIs, and microservice architectures using FastAPI, Flask, SpringBoot, and Docker. Building full-stack applications with React and Next.js.',
+    desc: 'Building scalable RESTful APIs, microservices, and secure backends using FastAPI, Flask, SpringBoot, and Docker. Developed GlobeTrotter (Top-20 at Odoo Hackathon), GadgetHive (Flask, Bcrypt, FIDO2 passkeys), and Cervello (real-time RAG with Qdrant vector DB).',
     tags: ['FastAPI', 'SpringBoot', 'Docker'],
     bg: 'bg-primary-fixed',
     text: '',
@@ -30,9 +30,9 @@ const domains = [
   {
     icon: 'analytics',
     number: '03',
-    title: 'Data Science & Research',
-    desc: 'Competing in NeurIPS and Kaggle challenges. Published research in medical AI and healthcare systems. Experience with signal processing, image analysis, and statistical modeling.',
-    tags: ['Kaggle', 'NeurIPS', 'Medical AI'],
+    title: 'Data Science & Analyst',
+    desc: 'Analyzing complex datasets and building predictive pipelines. Experienced with data preprocessing, augmentation, and evaluation metrics (Binary AUROC) in Kaggle challenges and medical imaging. Proficient in Pandas, NumPy, scikit-learn, Power BI, and MS Excel.',
+    tags: ['Pandas', 'scikit-learn', 'Power BI'],
     bg: 'bg-secondary',
     text: 'text-background',
     iconColor: 'text-background',
@@ -40,11 +40,11 @@ const domains = [
     span: 'md:col-span-5',
   },
   {
-    icon: 'monitoring',
+    icon: 'show_chart',
     number: '04',
-    title: 'GenAI & LLM Systems',
-    desc: 'Building RAG pipelines, agentic AI systems, and LLM-powered applications. Experience with LangChain, Qdrant vector DB, prompt engineering, and enterprise knowledge retrieval engines.',
-    tags: ['LangChain', 'RAG', 'Qdrant'],
+    title: 'Financial Analyst',
+    desc: 'Conducted market research and simulated trading at Finlatics (70-80% accuracy). Built AlgoCash, a Python-based portfolio construction and analysis pipeline evaluating S&P 500 sector exposure and rebalancing logic. Led NIT Rourkela Finance Club as Secretary.',
+    tags: ['Portfolio Management', 'Algo Trading', 'Fundamental Analysis'],
     bg: 'bg-tertiary',
     text: 'text-background',
     iconColor: 'text-background',
@@ -148,7 +148,7 @@ export default function Landing() {
               </h2>
               <p className="text-xl max-w-xl">
                 Interdisciplinary expertise spanning AI Research, Backend Systems,
-                Data Science, Finance and Data Anlyst and Technical Consulting — despite a core mining engineering background.
+                Data Science, Finance and Data Analyst and Technical Consulting — despite a core mining engineering background.
               </p>
             </div>
             <div className="hidden md:block text-8xl font-black opacity-[0.06] font-headline">
