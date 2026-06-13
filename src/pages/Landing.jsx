@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 import portfolioPic from '../assets/Portfolio_Pic.png'
 import iitKgpPic from '../assets/IIT_KGP.jpg'
+import temDashboardPic from '../assets/tem_dashboard.png'
 
 
 const domains = [
@@ -21,7 +22,7 @@ const domains = [
     number: '02',
     title: 'SDE // Backend',
     desc: 'Building scalable RESTful APIs, microservices, and secure backends using FastAPI, Flask, SpringBoot, and Docker. Developed GlobeTrotter (Top-20 at Odoo Hackathon), GadgetHive (Flask, Bcrypt, FIDO2 passkeys), and Cervello (real-time RAG with Qdrant vector DB).',
-    tags: ['FastAPI', 'SpringBoot', 'Docker'],
+    tags: ['Flask', 'MongoDB', 'TypeScript', 'SpringBoot', 'Docker'],
     bg: 'bg-primary-fixed',
     text: '',
     iconColor: 'text-primary',
@@ -32,7 +33,7 @@ const domains = [
     number: '03',
     title: 'Data Science & Analyst',
     desc: 'Analyzing complex datasets and building predictive pipelines. Experienced with data preprocessing, augmentation, and evaluation metrics (Binary AUROC) in Kaggle challenges and medical imaging. Proficient in Pandas, NumPy, scikit-learn, Power BI, and MS Excel.',
-    tags: ['Pandas', 'scikit-learn', 'Power BI'],
+    tags: ['Python', 'MS Excel', 'Power BI', 'SQL'],
     bg: 'bg-secondary',
     text: 'text-background',
     iconColor: 'text-background',
@@ -44,7 +45,7 @@ const domains = [
     number: '04',
     title: 'Financial Analyst',
     desc: 'Conducted market research and simulated trading at Finlatics (70-80% accuracy). Built AlgoCash, a Python-based portfolio construction and analysis pipeline evaluating S&P 500 sector exposure and rebalancing logic. Led NIT Rourkela Finance Club as Secretary.',
-    tags: ['Portfolio Management', 'Algo Trading', 'Fundamental Analysis'],
+    tags: ['Portfolio Management', 'Algo Trading', 'Fundamental and Technical Analysis'],
     bg: 'bg-tertiary',
     text: 'text-background',
     iconColor: 'text-background',
@@ -257,6 +258,51 @@ export default function Landing() {
                   Prof. Routray{' '}
                   <span className="material-symbols-outlined">person</span>
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========== FEATURED PROJECT ========== */}
+      <section id="project-spotlight" className="px-6 py-20 bg-surface border-t-4 border-primary">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            {/* Text column - 1st on mobile, 1st on desktop */}
+            <div className="space-y-8 order-1 md:order-1">
+              <div className="flex items-center gap-4">
+                <div className="h-1 w-20 bg-primary"></div>
+                <span className="font-headline font-black uppercase tracking-widest text-secondary">
+                  Summer SDE Intern // SRK Consulting
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline font-black uppercase leading-none tracking-tighter">
+                Techno-Economic <br /> Model (TEM) <br /> Web Platform
+              </h2>
+              <p className="text-xl leading-relaxed">
+                Engineered a secure web-based transformation of SRK Consulting’s proprietary Techno-Economic Model (TEM), migrating complex Excel-driven calculations, assumptions, and financial workflows into a scalable client-server architecture with encrypted databases, role-based access control, dynamic dashboards, and backend-secured business logic to enable interactive scenario analysis while protecting intellectual property and computational models.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="https://www.srk.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 font-headline font-black text-lg uppercase border-b-4 border-primary hover:bg-primary hover:text-background transition-colors p-1"
+                >
+                  SRK Consulting{' '}
+                  <span className="material-symbols-outlined">corporate_fare</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Image column - 2nd on mobile, 2nd on desktop */}
+            <div className="order-2 md:order-2">
+              <div className="aspect-video bg-surface border-4 border-primary neo-shadow-lg overflow-hidden">
+                <img
+                  className="w-full h-full object-cover"
+                  src={temDashboardPic}
+                  alt="Techno-Economic Model (TEM) Web Platform Dashboard - SRK Consulting"
+                />
               </div>
             </div>
           </div>
