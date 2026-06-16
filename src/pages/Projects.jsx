@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import globeTrotterPic from '../assets/GlobeTrotter.jpeg'
 import temDashboardPic from '../assets/tem_dashboard.png'
 import gadgetHivePic from '../assets/GadgetHive.jpeg'
+import workflowCervelloPic from '../assets/Workflow_Cervello.jpeg'
 
 export default function Projects() {
   return (
@@ -14,8 +15,9 @@ export default function Projects() {
           <span className="text-tertiary">01 — 06</span>
         </h1>
         <p className="font-body text-xl md:text-2xl font-bold max-w-2xl border-l-8 border-secondary pl-6">
-          AI-powered platforms, enterprise RAG systems, NLP pipelines, and
-          secure backends. Every project solves a real problem with production-grade engineering.
+          AI-powered service platforms (SaaS), RAG engines in Web Applications,
+          Coomputer Vision and Geospatial imaging, NLP pipelines, and Backend systems with complete CI/CD pipeline.
+          Every project solves a real-world industry problem with entreprise-grade engineering solutions.
         </p>
       </section>
 
@@ -33,7 +35,7 @@ export default function Projects() {
                   src={temDashboardPic}
                 />
                 <div className="absolute top-4 left-4 bg-tertiary text-on-tertiary font-headline font-black px-4 py-1 uppercase text-sm">
-                  Full Stack / Fintech
+                  Full Stack / Consulting
                 </div>
               </div>
               <div className="p-8 grow">
@@ -49,10 +51,10 @@ export default function Projects() {
                   Engineered a secure web-based transformation of SRK Consulting’s proprietary Techno-Economic Model (TEM), migrating complex Excel-driven calculations, assumptions, and financial workflows into a scalable client-server architecture with encrypted databases, role-based access control, dynamic dashboards, and backend-secured business logic to enable interactive scenario analysis while protecting intellectual property and computational models.
                 </p>
                 <p className="font-body text-sm font-bold text-secondary mb-6">
-                  💼 Summer SDE Intern // SRK Consulting (Summer 2026)
+                  💼 SDE Intern // SRK Consulting (Summer 2026)
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {['PYTHON', 'FASTAPI', 'REACTJS', 'POSTGRESQL', 'DOCKER', 'NGINX'].map((tag) => (
+                  {['PYTHON', 'TYPESCRIPT', 'REACTJS', 'MONGODB', 'DOCKER', 'GIT'].map((tag) => (
                     <span
                       key={tag}
                       className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-surface-container"
@@ -256,7 +258,7 @@ export default function Projects() {
                 <img
                   alt="Cervello Enterprise RAG System"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPaxkXKma5Fm5dIbUQMu1xEgQTMchlGLbOVGlKju2CT89-XpH5zsGKawsefP8jON3P0o1OerqFwWgurTw9OqhX1FDCSDNBisZX5jti0-O6FTu5FPv_L7N-z1TGphhbTpi9yZ2XpTUWz_jo097Gg8fvAG6hQ7SC8Ck8BN3EUPczOrZ3rR0JzWDBNJ5hhj77wr8Y_TDNa640K41X56JQjtmBa7GDmPyN69v5JNld_Jtf8CGhfKtHdxH49IJkOmFvzKql8c6oZnAEvlRN"
+                  src={workflowCervelloPic}
                 />
                 <div className="absolute top-4 left-4 bg-secondary text-on-primary font-headline font-black px-4 py-1 uppercase text-sm">
                   RAG / ENTERPRISE AI
@@ -275,7 +277,7 @@ export default function Projects() {
                   🏆 2nd Position — HackFest 2025 at IIT(ISM) Dhanbad
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {['FASTAPI', 'OPENAI API', 'QDRANT', 'MONGODB', 'PYTORCH'].map((tag) => (
+                  {['FASTAPI', 'OPENAI API', 'QDRANT', 'MONGODB', 'PYTORCH', 'FAISS'].map((tag) => (
                     <span
                       key={tag}
                       className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-surface-container"
@@ -336,7 +338,7 @@ export default function Projects() {
                   🏆 1st Runners-Up — Reverie Language Technologies
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {['REACTJS', 'FLASK', 'PYTORCH', 'HUGGINGFACE', 'WHISPER API'].map((tag) => (
+                  {['REACTJS', 'NLP', 'PYTORCH', 'HUGGINGFACE API', 'INDICBERT'].map((tag) => (
                     <span
                       key={tag}
                       className="border-2 border-primary px-3 py-1 font-bold text-xs uppercase bg-background"
@@ -378,7 +380,7 @@ export default function Projects() {
                   notebook views.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {['GANS', 'PYTORCH'].map((tag) => (
+                  {['GANS', 'PYTORCH', 'PYTHON'].map((tag) => (
                     <span
                       key={tag}
                       className="border-2 border-background px-3 py-1 font-bold text-xs uppercase"
