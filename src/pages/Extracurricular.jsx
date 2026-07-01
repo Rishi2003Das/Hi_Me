@@ -1,65 +1,88 @@
 const activities = [
   {
-    icon: 'groups',
-    title: 'Tech Club President',
-    org: 'University Computing Society',
-    period: '2025 — Present',
-    desc: 'Leading a 200-member technical community. Organized 15+ workshops, 3 hackathons, and established partnerships with 5 tech companies for sponsored events.',
-    tags: ['Leadership', 'Event Management', 'Community'],
+    icon: 'neurology',
+    title: 'Vice President',
+    org: 'Machine Learning for Everyone (ML4E), NIT Rourkela',
+    period: 'Leadership & Student Orgs',
+    desc: 'Led technical workshops, hackathons, AI/ML projects, mentorship programs, and research initiatives. Coordinated multidisciplinary teams and organized community-driven learning events.',
+    tags: ['AI/ML', 'Leadership', 'Mentorship'],
     bg: 'bg-primary',
     text: 'text-background',
     tagStyle: 'border-background text-background',
-    span: 'md:col-span-7',
+    span: 'md:col-span-8',
   },
   {
-    icon: 'volunteer_activism',
-    title: 'Code for Good',
-    org: 'NGO Tech Volunteer',
-    period: '2024 — Present',
-    desc: 'Built pro-bono digital tools for 3 non-profits. Developed a student management system serving 500+ underprivileged students.',
-    tags: ['Social Impact', 'Full-Stack', 'Pro Bono'],
+    icon: 'payments',
+    title: 'Secretary',
+    org: 'Finance Club, NIT Rourkela',
+    period: 'Leadership & Student Orgs',
+    desc: 'Organized flagship finance and entrepreneurship events. Led sponsorship negotiations, stakeholder engagement, and event management activities.',
+    tags: ['Finance', 'Management', 'Sponsorship'],
     bg: 'bg-tertiary',
     text: 'text-background',
     tagStyle: 'border-background text-background',
-    span: 'md:col-span-5',
+    span: 'md:col-span-4',
   },
   {
-    icon: 'sports_esports',
-    title: 'Competitive Programming',
-    org: 'Codeforces / LeetCode',
-    period: '2023 — Present',
-    desc: 'Codeforces Expert (1600+). Solved 1200+ problems across platforms. Represented university in 3 ICPC regionals.',
-    tags: ['Algorithms', 'Data Structures', 'ICPC'],
+    icon: 'public',
+    title: 'Best Delegate',
+    org: 'NITRIMUN 2023',
+    period: 'Public Speaking & Diplomacy',
+    desc: 'Represented India in the ECOSOC committee and secured the Best Delegate Award, demonstrating excellence in public speaking, negotiation, diplomacy, and critical thinking.',
+    tags: ['Diplomacy', 'Public Speaking', 'Negotiation'],
     bg: 'bg-secondary',
     text: 'text-background',
     tagStyle: 'border-background text-background',
-    span: 'md:col-span-5',
+    span: 'md:col-span-4',
   },
   {
-    icon: 'edit_note',
-    title: 'Technical Blogging',
-    org: 'Dev.to / Medium',
-    period: '2024 — Present',
-    desc: 'Published 25+ in-depth technical articles on systems design, ML engineering, and Rust. 50K+ cumulative readers with a 4.8★ average rating.',
-    tags: ['Writing', 'Systems Design', 'Education'],
+    icon: 'music_note',
+    title: 'Classical Guitarist',
+    org: 'Trinity College London Certified',
+    period: 'Music & Performing Arts',
+    desc: 'Completed formal training and certification in Classical Guitar, developing advanced musical proficiency, creativity, discipline, and performance skills. Practiced classical guitar repertoire, strengthening artistic expression, patience, and attention to detail.',
+    tags: ['Classical Guitar', 'Trinity College', 'Performing Arts'],
     bg: 'bg-primary-fixed',
     text: 'text-primary',
     tagStyle: 'border-primary text-primary',
-    span: 'md:col-span-7',
+    span: 'md:col-span-8',
+  },
+  {
+    icon: 'sports_soccer',
+    title: 'Football Enthusiast & Team Player',
+    org: 'NIT Rourkela Football Community',
+    period: 'Sports & Physical Activities',
+    desc: 'Actively represented and played football with the NIT Rourkela football community/team, participating in inter-hostel and institute-level competitions, fostering teamwork, discipline, leadership, and strategic decision-making skills. Regular participant in recreational and competitive sports activities, emphasizing physical fitness, resilience, and collaborative problem-solving.',
+    tags: ['Football', 'Teamwork', 'Fitness', 'Discipline'],
+    bg: 'bg-surface',
+    text: 'text-primary',
+    tagStyle: 'border-primary text-primary',
+    span: 'md:col-span-6',
+  },
+  {
+    icon: 'campaign',
+    title: 'Guest Lecture & Sponsorship Coordinator',
+    org: 'Innovision 2023, NIT Rourkela',
+    period: 'Oct 2023 – Dec 2023',
+    desc: 'Led a team of 20+ people in guest lectures and sponsorship. Gained hands-on experience in public relations, corporate outreach, sponsorship negotiations, and professional mailing.',
+    tags: ['Sponsorship', 'Outreach', 'Leadership'],
+    bg: 'bg-secondary',
+    text: 'text-background',
+    tagStyle: 'border-background text-background',
+    span: 'md:col-span-6',
   },
 ]
 
 const interests = [
+  'Football',
+  'Classical Guitar',
+  'Machine Learning',
+  'Quantitative Finance',
+  'Diplomacy',
+  'Public Speaking',
+  'Algorithmic Trading',
   'Open Source',
-  'Mechanical Keyboards',
-  'Chess',
-  'Photography',
-  'Hiking',
-  'Science Fiction',
-  'Classical Music',
-  'Generative Art',
-  'Board Games',
-  'Rock Climbing',
+  'AI Research',
 ]
 
 const interestMarquee = interests.join(' // ')
@@ -76,7 +99,7 @@ export default function Extracurricular() {
         </h1>
         <p className="font-body text-xl md:text-2xl font-bold max-w-2xl border-l-8 border-tertiary pl-6">
           Engineering excellence extends beyond the terminal. Leadership,
-          community, and creative pursuit shape a complete developer.
+          community, and creative pursuits shape a complete developer.
         </p>
       </section>
 
@@ -150,26 +173,26 @@ export default function Extracurricular() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">
             <span className="font-headline text-6xl font-black text-secondary">
-              200+
+              6k+
             </span>
             <p className="font-headline font-bold uppercase tracking-widest mt-2">
-              Members Led
+              LinkedIn Connections
             </p>
           </div>
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">
             <span className="font-headline text-6xl font-black text-tertiary">
-              50K+
+              20+
             </span>
             <p className="font-headline font-bold uppercase tracking-widest mt-2">
-              Blog Readers
+              Events & Workshops
             </p>
           </div>
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">
             <span className="font-headline text-6xl font-black text-primary-fixed-dim">
-              1200+
+              10+
             </span>
             <p className="font-headline font-bold uppercase tracking-widest mt-2">
-              Problems Solved
+              Non-Academic Awards
             </p>
           </div>
         </div>
