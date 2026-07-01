@@ -12,7 +12,7 @@ I am a researcher and developer passionate about combining Artificial Intelligen
 ---
 
 ## 📚 Education & Academic Highlights
-* **NIT Rourkela (2022 — 2027)**: Dual Degree (B.Tech + M.Tech) in Mining Engineering & Remote Sensing (CGPA: 8.35)
+* **NIT Rourkela (2022 — 2027)**: Dual Degree (B.Tech + M.Tech) in Mining Engineering & Remote Sensing (CGPA: 7.9)
 * **JEE Mains & Advanced**: Qualified JEE Mains (Top 5 percentile out of 14 Lakh+ candidates) and JEE Advanced (IIT-JEE).
 * **NTSE**: National Talent Search Examination (NTSE) State Round Qualifier (2 Rounds).
 

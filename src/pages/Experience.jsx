@@ -259,7 +259,7 @@ export default function Experience() {
           <div className="bg-primary-fixed border-4 border-primary p-8 md:p-12 neo-shadow-lg flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-6">
               <div className="bg-primary text-background font-headline text-4xl font-black p-4 -rotate-3 shrink-0">
-                8.35
+                7.9
               </div>
               <div>
                 <h3 className="font-headline text-2xl md:text-3xl font-black uppercase">
