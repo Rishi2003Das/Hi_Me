@@ -6,12 +6,21 @@ const stats = [
 ]
 
 const timeline = [
-  { year: '2025', title: 'Research Internship // IIT Kharagpur', org: 'EE Dept, Prof. Aurobindo Routray' },
+  { year: '2025', title: "April Cohort '26 — Reverie Language Technology", org: "1st Runner's Up" },
+  { year: '2025', title: 'Odoo 2025 Hackathon — Gandhinagar, Gujarat', org: 'Top 20 Finalist' },
   { year: '2025', title: 'Hackfest 2025 — 2nd Place', org: 'IIT (ISM) Dhanbad' },
   { year: '2025', title: 'IEEE Conference — 3rd Position', org: 'IEEE IMS Kolkata Chapter' },
+  { year: '2024', title: 'Kaggle Competitions — ISIC Skin Cancer Research Competition', org: 'Research Competition' },
+  { year: '2024', title: 'Amazon ML Challenge — All-India Ranking', org: 'Top 10%' },
+  { year: '2024', title: 'EY Techathon — Qualified twice till 3rd Round', org: 'Prototype Round' },
   { year: '2024', title: 'StatusCode 1.0 — 3rd Place', org: 'IIIT Kalyani / IISER Kalyani' },
-  { year: '2023-24', title: 'Finlatics Online Internship', org: 'Portfolio Mgmt & Equity Analyst' },
+  { year: '2024', title: "IIT BBSR MUN '24 — Special Mention", org: 'AWARD' },
+  { year: '2024', title: 'Kaggle Competitions — Leash BELKA Stanford research competition', org: 'Top 200 / 1800' },
   { year: '2023', title: 'Best Delegate — NITRIMUN 2023', org: 'NIT Rourkela' },
+  { year: '2023', title: "Eleganos MUN '23 Bhubaneswar — High Recommendation", org: 'AWARD' },
+  { year: '2022', title: 'JEE Mains Qualified — Top 5 Percentile', org: '14 Lakh+ Candidates' },
+  { year: '2022', title: 'Qualified for JEE Advanced (IIT-JEE)', org: 'Academic' },
+  { year: '2017', title: 'National Talent Search Examination (NTSE)', org: 'State Round (2 Rounds)' },
 ]
 
 export default function Achievements() {
