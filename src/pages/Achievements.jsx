@@ -29,7 +29,7 @@ export default function Achievements() {
       {/* Hero */}
       <section className="px-6 pt-12 pb-8 max-w-7xl mx-auto mb-12">
         <div className="flex flex-col md:flex-row items-end gap-6 mb-12">
-          <h1 className="font-headline text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none">
+          <h1 className="font-headline text-5xl sm:text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none">
             WINNING
             <br />
             <span className="text-tertiary">STREAK.</span>
@@ -54,7 +54,7 @@ export default function Achievements() {
               key={s.label}
               className="bg-surface border-4 border-primary p-6 neo-shadow-sm flex flex-col items-center transition-all cursor-default"
             >
-              <span className={`font-headline text-5xl font-black ${s.color}`}>
+              <span className={`font-headline text-4xl sm:text-5xl font-black ${s.color}`}>
                 {s.value}
               </span>
               <span className="font-headline font-bold uppercase text-sm tracking-widest mt-2 text-center">
@@ -82,7 +82,7 @@ export default function Achievements() {
                   2nd Place Winner
                 </span>
               </div>
-              <h3 className="font-headline text-4xl md:text-5xl font-black uppercase leading-tight mb-4">
+              <h3 className="font-headline text-3xl sm:text-4xl md:text-5xl font-black uppercase leading-tight mb-4">
                 HACKFEST
                 <br />
                 2025
@@ -131,11 +131,11 @@ export default function Achievements() {
           {/* Research Internship — IIT Kharagpur */}
           <div className="md:col-span-12 bg-primary-fixed text-primary p-8 border-4 border-primary neo-shadow flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-6">
-              <div className="bg-primary text-background font-headline text-3xl font-black p-4 -rotate-3 shrink-0">
+              <div className="bg-primary text-background font-headline text-2xl sm:text-3xl font-black p-3 sm:p-4 -rotate-3 shrink-0">
                 IIT KGP
               </div>
               <div>
-                <h3 className="font-headline text-2xl font-black uppercase">
+                <h3 className="font-headline text-xl sm:text-2xl font-black uppercase">
                   Research Internship — Summer 2025
                 </h3>
                 <p className="font-body font-bold">
@@ -195,7 +195,7 @@ export default function Achievements() {
               <span className="material-symbols-outlined text-4xl mb-4">
                 code
               </span>
-              <h3 className="font-headline text-3xl font-black uppercase leading-none mb-4">
+              <h3 className="font-headline text-2xl sm:text-3xl font-black uppercase leading-none mb-4">
                 DSA & CERTS
               </h3>
             </div>
@@ -218,7 +218,7 @@ export default function Achievements() {
 
       {/* Historical Log */}
       <section className="px-6 max-w-7xl mx-auto">
-        <h2 className="font-headline text-5xl font-black uppercase mb-12 border-b-8 border-primary inline-block">
+        <h2 className="font-headline text-4xl sm:text-5xl font-black uppercase mb-8 sm:mb-12 border-b-8 border-primary inline-block">
           Historical Log
         </h2>
         <div className="space-y-4">
@@ -228,10 +228,10 @@ export default function Achievements() {
               className="group bg-surface hover:bg-primary hover:text-background border-4 border-primary p-6 transition-colors flex flex-col md:flex-row justify-between items-start md:items-center gap-4 cursor-default"
             >
               <div className="flex items-center gap-8">
-                <span className="font-headline font-black text-2xl opacity-20 group-hover:opacity-100 transition-opacity">
+                <span className="font-headline font-black text-xl sm:text-2xl opacity-20 group-hover:opacity-100 transition-opacity">
                   {item.year}
                 </span>
-                <h4 className="font-headline font-extrabold text-xl md:text-2xl uppercase tracking-tighter">
+                <h4 className="font-headline font-extrabold text-lg sm:text-xl md:text-2xl uppercase tracking-tighter">
                   {item.title}
                 </h4>
               </div>

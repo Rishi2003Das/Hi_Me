@@ -10,11 +10,11 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-primary text-background w-full border-t-4 border-primary">
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-8 py-12 gap-8 max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-6 sm:px-8 py-8 sm:py-12 gap-6 sm:gap-8 max-w-7xl mx-auto">
         {/* Logo */}
         <Link
           to="/"
-          className="text-background font-headline font-black text-3xl uppercase tracking-tighter hover:text-primary-fixed transition-colors"
+          className="text-background font-headline font-black text-2xl sm:text-3xl text-center md:text-left uppercase tracking-tighter hover:text-primary-fixed transition-colors"
         >
           Rishi Das // NIT Rourkela
         </Link>

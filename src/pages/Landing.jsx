@@ -83,7 +83,7 @@ export default function Landing() {
         className="min-h-[90vh] px-6 py-12 flex flex-col justify-center border-b-4 border-primary relative overflow-hidden"
       >
         {/* Decorative number */}
-        <div className="absolute top-10 right-10 opacity-[0.06] pointer-events-none select-none">
+        <div className="absolute top-10 right-10 opacity-[0.06] pointer-events-none select-none hidden md:block">
           <span className="text-[18rem] font-black font-headline leading-none">
             01
           </span>
@@ -95,7 +95,7 @@ export default function Landing() {
               Software Engineer × AI/ML Researcher
             </div>
 
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-headline font-black leading-[0.9] tracking-tighter uppercase">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-headline font-black leading-[0.9] tracking-tighter uppercase">
               Rishi Das
             </h1>
 
@@ -105,12 +105,12 @@ export default function Landing() {
               on Computer Vision, Backend systems and  DevOps engineering.
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-4">
               <a
                 href="https://drive.google.com/file/d/1eSBhnPcIi3qUnEA0hv1he6lg4oo-kHey/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-primary-fixed hover:bg-primary-fixed hover:text-primary px-8 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase"
+                className="bg-primary text-primary-fixed hover:bg-primary-fixed hover:text-primary px-6 py-3 sm:px-8 sm:py-4 font-black font-headline text-base sm:text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase text-center"
               >
                 View Portfolio
               </a>
@@ -118,7 +118,7 @@ export default function Landing() {
                 href="https://github.com/Rishi2003Das"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary text-on-primary hover:bg-background hover:text-secondary px-8 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase"
+                className="bg-secondary text-on-primary hover:bg-background hover:text-secondary px-6 py-3 sm:px-8 sm:py-4 font-black font-headline text-base sm:text-lg border-4 border-primary neo-shadow-lg hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase text-center"
               >
                 GitHub
               </a>
@@ -136,7 +136,7 @@ export default function Landing() {
                 style={{ transform: 'scale(1.05)' }}
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-primary-fixed text-primary p-4 sm:p-6 border-4 border-primary neo-shadow font-headline font-black text-xl sm:text-2xl uppercase">
+            <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-primary-fixed text-primary p-3 sm:p-6 border-4 border-primary neo-shadow font-headline font-black text-lg sm:text-2xl uppercase">
               EST. 2003
             </div>
           </div>
@@ -148,7 +148,7 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="space-y-4">
-              <h2 className="text-5xl md:text-7xl font-headline font-black uppercase tracking-tighter">
+              <h2 className="text-4xl sm:text-5xl md:text-7xl font-headline font-black uppercase tracking-tighter">
                 Strategic Domains
               </h2>
               <p className="text-xl max-w-xl">
@@ -156,7 +156,7 @@ export default function Landing() {
                 Data Science, Finance and Data Analyst and Technical Consulting — despite a core mining engineering background.
               </p>
             </div>
-            <div className="hidden md:block text-8xl font-black opacity-[0.06] font-headline">
+            <div className="hidden lg:block text-8xl font-black opacity-[0.06] font-headline">
               DOMAINS
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function Landing() {
                     {d.number}
                   </span>
                 </div>
-                <h3 className="text-3xl md:text-4xl font-headline font-black uppercase mb-4">
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-headline font-black uppercase mb-4">
                   {d.title}
                 </h3>
                 <p className="text-lg mb-6 leading-snug">{d.desc}</p>
@@ -358,9 +358,9 @@ export default function Landing() {
             <input
               type="email"
               placeholder="YOUR_EMAIL@DOMAIN.COM"
-              className="bg-background border-4 border-primary px-8 py-4 font-headline font-black text-lg focus:ring-0 focus:outline-none placeholder:opacity-50 min-w-0 sm:min-w-75"
+              className="bg-background border-4 border-primary px-4 py-3 sm:px-8 sm:py-4 font-headline font-bold text-base sm:text-lg focus:ring-0 focus:outline-none placeholder:opacity-50 min-w-0 sm:min-w-75 w-full sm:w-auto"
             />
-            <button className="bg-primary text-background px-12 py-4 font-black font-headline text-lg border-4 border-primary neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase">
+            <button className="bg-primary text-background px-8 py-3 sm:px-12 sm:py-4 font-black font-headline text-base sm:text-lg border-4 border-primary neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all uppercase w-full sm:w-auto">
               CONNECT
             </button>
           </div>

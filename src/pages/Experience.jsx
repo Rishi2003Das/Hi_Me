@@ -93,7 +93,7 @@ export default function Experience() {
     <div className="pb-20">
       {/* Hero */}
       <section className="px-6 pt-12 pb-8 max-w-7xl mx-auto mb-12">
-        <h1 className="font-headline text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
+        <h1 className="font-headline text-5xl sm:text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
           EXPERIENCE.
           <br />
           <span className="text-tertiary">01 — 04</span>
@@ -110,11 +110,11 @@ export default function Experience() {
           {experiences.map((exp, i) => (
             <div
               key={i}
-              className={`${exp.color} ${exp.textColor} border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col justify-between min-h-85`}
+              className={`${exp.color} ${exp.textColor} border-4 border-primary p-5 sm:p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col justify-between min-h-60 sm:min-h-85`}
             >
               <div>
                 <div className="flex justify-between items-start mb-6">
-                  <span className="font-headline font-black text-5xl opacity-20">
+                  <span className="font-headline font-black text-4xl sm:text-5xl opacity-20">
                     {String(i + 1).padStart(2, '0')}
                   </span>
                   <span className={`font-headline font-bold text-sm uppercase tracking-widest px-3 py-1 border-2 ${exp.tagStyle}`}>
@@ -162,7 +162,7 @@ export default function Experience() {
       {/* Kaggle Competitions */}
       <section className="px-6 max-w-7xl mx-auto mb-24">
         <div className="flex items-center gap-6 mb-12">
-          <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
             Competitions
           </h2>
           <div className="h-1 bg-primary grow"></div>
@@ -216,7 +216,7 @@ export default function Experience() {
       {/* Skills Grid */}
       <section className="px-6 max-w-7xl mx-auto mb-24">
         <div className="flex items-center gap-6 mb-12">
-          <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
             Technical Arsenal
           </h2>
           <div className="h-1 bg-primary grow"></div>

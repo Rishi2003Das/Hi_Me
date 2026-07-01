@@ -23,9 +23,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           to="/"
-          className="text-lg sm:text-2xl font-headline font-black text-primary border-2 border-primary px-2 py-1 hover:bg-primary-fixed transition-colors shrink-0"
+          className="text-sm sm:text-lg md:text-2xl font-headline font-black text-primary border-2 border-primary px-2 py-1 hover:bg-primary-fixed transition-colors shrink-0 truncate max-w-[200px] sm:max-w-none"
         >
-          Software Developer // 2027
+          <span className="hidden sm:inline">Software Developer // 2027</span>
+          <span className="sm:hidden">RD // 2027</span>
         </Link>
 
         {/* Desktop Links */}
@@ -48,7 +49,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <Link
             to="/contact"
-            className="hidden sm:block bg-primary text-background hover:bg-background hover:text-primary font-headline font-black px-5 py-2 border-2 border-primary neo-shadow active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all uppercase tracking-tighter text-sm"
+            className="hidden md:block bg-primary text-background hover:bg-background hover:text-primary font-headline font-black px-5 py-2 border-2 border-primary neo-shadow active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all uppercase tracking-tighter text-sm"
           >
             CONTACT ME
           </Link>

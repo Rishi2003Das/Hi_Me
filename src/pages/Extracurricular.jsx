@@ -92,7 +92,7 @@ export default function Extracurricular() {
     <div className="pb-24">
       {/* Hero */}
       <section className="px-6 pt-12 pb-8 max-w-7xl mx-auto mb-12">
-        <h1 className="font-headline text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
+        <h1 className="font-headline text-5xl sm:text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
           BEYOND
           <br />
           <span className="text-secondary">CODE.</span>
@@ -125,7 +125,7 @@ export default function Extracurricular() {
                     {a.period}
                   </span>
                 </div>
-                <h3 className="font-headline text-3xl md:text-4xl font-black uppercase mb-2 tracking-tight">
+                <h3 className="font-headline text-2xl sm:text-3xl md:text-4xl font-black uppercase mb-2 tracking-tight">
                   {a.title}
                 </h3>
                 <p className="font-headline font-bold text-lg uppercase tracking-widest mb-4 opacity-80">
@@ -165,14 +165,14 @@ export default function Extracurricular() {
       {/* Impact Stats */}
       <section className="px-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-6 mb-12">
-          <h2 className="text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-headline font-black uppercase tracking-tighter">
             Community Impact
           </h2>
           <div className="h-1 bg-primary grow"></div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">
-            <span className="font-headline text-6xl font-black text-secondary">
+            <span className="font-headline text-5xl sm:text-6xl font-black text-secondary">
               6k+
             </span>
             <p className="font-headline font-bold uppercase tracking-widest mt-2">
@@ -180,7 +180,7 @@ export default function Extracurricular() {
             </p>
           </div>
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">
-            <span className="font-headline text-6xl font-black text-tertiary">
+            <span className="font-headline text-5xl sm:text-6xl font-black text-tertiary">
               20+
             </span>
             <p className="font-headline font-bold uppercase tracking-widest mt-2">
@@ -188,7 +188,7 @@ export default function Extracurricular() {
             </p>
           </div>
           <div className="bg-surface border-4 border-primary p-8 neo-shadow text-center">
-            <span className="font-headline text-6xl font-black text-primary-fixed-dim">
+            <span className="font-headline text-5xl sm:text-6xl font-black text-primary-fixed-dim">
               10+
             </span>
             <p className="font-headline font-bold uppercase tracking-widest mt-2">

@@ -61,7 +61,7 @@ export default function Contact() {
       {/* Hero */}
       <section className="bg-primary-fixed px-6 py-20 border-b-4 border-primary">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-headline font-black uppercase tracking-tighter leading-none mb-8">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-headline font-black uppercase tracking-tighter leading-none mb-8">
             Let's Build
             <br />
             Together.

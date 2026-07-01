@@ -9,7 +9,7 @@ export default function Projects() {
     <div className="pb-20">
       {/* Hero */}
       <section className="px-6 pt-12 pb-8 max-w-7xl mx-auto mb-12">
-        <h1 className="font-headline text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
+        <h1 className="font-headline text-5xl sm:text-7xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-6">
           WORK.
           <br />
           <span className="text-tertiary">01 — 06</span>
@@ -40,7 +40,7 @@ export default function Projects() {
               </div>
               <div className="p-8 grow">
                 <div className="flex justify-between items-start mb-4">
-                  <h2 className="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter">
+                  <h2 className="font-headline text-3xl sm:text-4xl md:text-5xl font-black uppercase tracking-tighter">
                     TEM Web Platform
                   </h2>
                   <span className="material-symbols-outlined text-4xl">
@@ -63,12 +63,12 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
                   <a
                     href="https://tem-mining.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-primary text-background px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                    className="inline-flex items-center justify-center gap-2 bg-primary text-background px-5 py-3 sm:px-8 sm:py-4 font-headline font-black text-sm sm:text-base border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
                   >
                     WORKING PROTOTYPE{' '}
                     <span className="material-symbols-outlined">
@@ -79,7 +79,7 @@ export default function Projects() {
                     href="https://www.srk.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                    className="inline-flex items-center justify-center gap-2 bg-tertiary text-on-tertiary px-5 py-3 sm:px-8 sm:py-4 font-headline font-black text-sm sm:text-base border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
                   >
                     SRK Consulting{' '}
                     <span className="material-symbols-outlined">
@@ -200,12 +200,12 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
                   <a
                     href="https://globe-trotter-nitrous.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-red-500 text-background px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                    className="inline-flex items-center justify-center gap-2 bg-red-500 text-background px-5 py-3 sm:px-8 sm:py-4 font-headline font-black text-sm sm:text-base border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
                   >
                     WORKING PROTOTYPE{' '}
                     <span className="material-symbols-outlined">
@@ -216,7 +216,7 @@ export default function Projects() {
                     href="https://github.com/Rishi2003Das/GlobeTrotter_NITROUS"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-tertiary text-on-tertiary px-8 py-4 font-headline font-black border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
+                    className="inline-flex items-center justify-center gap-2 bg-tertiary text-on-tertiary px-5 py-3 sm:px-8 sm:py-4 font-headline font-black text-sm sm:text-base border-2 border-primary neo-shadow hover:bg-primary-fixed hover:text-primary transition-all uppercase"
                   >
                     VIEW REPOSITORY{' '}
                     <span className="material-symbols-outlined">
@@ -425,7 +425,7 @@ export default function Projects() {
         {/* CTA Banner */}
         <section className="mt-24 bg-secondary text-on-primary p-12 border-4 border-primary neo-shadow-lg relative overflow-hidden">
           <div className="relative z-10">
-            <h2 className="font-headline text-5xl md:text-7xl font-black uppercase mb-6 tracking-tighter">
+            <h2 className="font-headline text-4xl sm:text-5xl md:text-7xl font-black uppercase mb-6 tracking-tighter">
               LET'S COLLABORATE
             </h2>
             <p className="font-body text-xl font-bold mb-10 max-w-xl">
@@ -434,7 +434,7 @@ export default function Projects() {
             </p>
             <Link
               to="/contact"
-              className="inline-block bg-primary text-background px-10 py-5 font-headline font-black text-2xl uppercase border-4 border-primary hover:bg-background hover:text-primary transition-all neo-shadow active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="inline-block bg-primary text-background px-6 py-4 sm:px-10 sm:py-5 font-headline font-black text-lg sm:text-2xl uppercase border-4 border-primary hover:bg-background hover:text-primary transition-all neo-shadow active:translate-x-1 active:translate-y-1 active:shadow-none"
             >
               GET IN TOUCH
             </Link>

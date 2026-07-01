@@ -61,6 +61,11 @@
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
   body {
     margin: 0;
     font-family: var(--font-body);
@@ -69,6 +74,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
   }
 
   ::selection {
@@ -76,8 +83,9 @@
     color: var(--color-on-primary-container);
   }
 
-  html {
-    scroll-behavior: smooth;
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   a {
@@ -101,15 +109,27 @@
 
   /* ---- Neo-Brutalist Shadows ---- */
   .neo-shadow {
-    box-shadow: 4px 4px 0px 0px var(--color-primary);
+    box-shadow: 3px 3px 0px 0px var(--color-primary);
   }
 
   .neo-shadow-lg {
-    box-shadow: 8px 8px 0px 0px var(--color-primary);
+    box-shadow: 4px 4px 0px 0px var(--color-primary);
   }
 
   .neo-shadow-sm {
-    box-shadow: 3px 3px 0px 0px var(--color-primary);
+    box-shadow: 2px 2px 0px 0px var(--color-primary);
+  }
+
+  @media (min-width: 768px) {
+    .neo-shadow {
+      box-shadow: 4px 4px 0px 0px var(--color-primary);
+    }
+    .neo-shadow-lg {
+      box-shadow: 8px 8px 0px 0px var(--color-primary);
+    }
+    .neo-shadow-sm {
+      box-shadow: 3px 3px 0px 0px var(--color-primary);
+    }
   }
 
   /* ---- Marquee Animation ---- */
