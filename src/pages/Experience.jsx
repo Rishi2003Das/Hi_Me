@@ -41,7 +41,19 @@ const experiences = [
     textColor: 'text-primary',
     tagStyle: 'border-primary text-primary',
   },
-]
+  {
+    role: 'Financial Portfolio Management Intern',
+    company: 'Finlatics',
+    period: 'Dec 2023 – Feb 2024',
+    desc: 'Conducted in-depth research on various sectors in the Indian market and evaluated the performance and potential of companies within those sectors. Completed a three-month virtual internship involving simulated trading via the Finlatics app, supported by tutorial videos and mentor guidance; achieved 70–80% accuracy in market predictions.',
+    tags: ['Finance', 'Research', 'Trading'],
+    color: 'bg-tertiary',
+    textColor: 'text-background',
+    tagStyle: 'border-background text-background',
+    link: 'https://drive.google.com/file/d/1IVzeZwIJnzk2DHRR5miBIpGaxdg-YPfk/view?usp=sharing',
+    linkLabel: 'Performance Report',
+  },
+];
 
 const skillCategories = [
   {
@@ -182,6 +194,20 @@ export default function Experience() {
             <div className="flex flex-wrap gap-3">
               <span className="bg-primary text-background px-3 py-1 text-xs font-bold uppercase">Medical AI</span>
               <span className="bg-primary text-background px-3 py-1 text-xs font-bold uppercase">AUROC Optimisation</span>
+            </div>
+          </div>
+          <div className="bg-surface border-4 border-primary p-8 neo-shadow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="material-symbols-outlined text-3xl text-secondary" style={{ fontVariationSettings: '"FILL" 1' }}>science</span>
+              <span className="font-headline font-black uppercase text-sm tracking-widest text-tertiary">Medhamanthan 2025</span>
+            </div>
+            <h3 className="font-headline text-2xl font-black uppercase mb-3">Detection and Classification of ALL</h3>
+            <p className="font-body text-base mb-4 leading-relaxed">
+              Participated in an IEEE conference on the Instrumentation and Measurement Society (Kolkata Chapter) and was awarded the 3rd position for the paper presented in the Conference.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <span className="bg-primary text-background px-3 py-1 text-xs font-bold uppercase">3rd Position</span>
+              <span className="bg-primary text-background px-3 py-1 text-xs font-bold uppercase">IEEE IMS</span>
             </div>
           </div>
         </div>
